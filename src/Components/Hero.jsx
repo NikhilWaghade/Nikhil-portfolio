@@ -1,11 +1,13 @@
 import React from 'react'
+// import nikhil from './assests/nikhil.jpg';
+import nikhil from '../assets/nikhil.jpg';
 
 const Hero = () => {
   return (
     <>
       <div className='bg-[#212E40] text-white h-[39rem]' id='hero'>
         <div className="img flex justify-center "> 
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0cihgIE4lUg9QDsDf--A41gt7zkeZvHn-_w&s" alt="" className='rounded-full border-[#84DAFF] border-4 mt-10' />
+            <img src={nikhil} alt="" className='rounded-full border-[#84DAFF] border-4 mt-10 h-52 w-52' />
         </div>
 
         <div className="heading  mt-5">

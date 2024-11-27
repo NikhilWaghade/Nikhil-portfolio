@@ -26,7 +26,7 @@ const Navbar = () => {
 
         {/* Hamburger Icon */}
         <div
-          className="text-white text-2xl cursor-pointer md:hidden"
+          className="text-white text-2xl cursor-pointer md:hidden "
           onClick={toggleMenu}
         >
           {menuOpen ? <FaTimes /> : <FaBars />}
