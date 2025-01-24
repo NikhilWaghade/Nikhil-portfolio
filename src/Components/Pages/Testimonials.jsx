@@ -14,7 +14,7 @@ const Testimonials = () => {
             className="rounded-full w-24 mx-auto mb-4"
           />
           <h3 className="text-xl font-semibold">Kuldeep Kawre</h3>
-          <p className="text-gray-400 text-sm mb-4">Client - Full Stack Developer</p>
+          <p className="text-gray-400 text-sm mb-4">Client - Founder of Connect Shiksha</p>
           <p className="text-gray-300 mb-8">
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."
           </p>

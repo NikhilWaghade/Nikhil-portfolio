@@ -30,7 +30,7 @@ const About = () => {
 
       {/* About Me Section */}
       <div className="text-center mb-8 lg:mr-[25rem] lg:-mt-1 mt-80 -ml-48">
-        <h1 className="text-4xl  mb-4 text-[#84DAFF] lg:ml-56 -ml-28">About Me</h1>
+        <h1 className="text-4xl mb-4 text-[#84DAFF] lg:ml-56 -ml-28 ">About Me</h1>
         <p className=" leading-relaxed text-white lg:w-[30rem] lg:ml-[33rem] w-80 text-left ml-10">
           I am a Full Stack Developer with extensive,helpful knowledge and proficiency in JavaScript, Rest frameworks , Restful APIs , React.js , Redux, HTML, CSS, and a strong ability to write clean and efficient code.
         </p>

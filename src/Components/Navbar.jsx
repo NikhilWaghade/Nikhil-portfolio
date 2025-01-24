@@ -7,8 +7,10 @@ import SkillBars from './Pages/Skillbar';
 import Project from './Pages/Project';
 import Services from './Pages/Services';
 import Testimonials from './Pages/Testimonials';
-import Footer from './Pages/Footer';
+import Footer from './Footer';
 
+// image 
+import logo from '../assets/nwlogo.png';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,7 +24,12 @@ const Navbar = () => {
       {/* Navbar Container */}
       <nav className="bg-[#212E40] p-4 flex items-center justify-between">
         {/* Brand/Logo */}
-        <h1 className="text-white font-bold text-xl">NW</h1>
+        <h1 className="text-white bg-[#212E40] font-bold text-xl w-20">
+          <a href="">
+            <img src={logo} alt="" />
+          </a>
+         
+        </h1>
 
         {/* Hamburger Icon */}
         <div
